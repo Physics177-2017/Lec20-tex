@@ -1,0 +1,48 @@
+% Sample Article
+% Document starts here
+\documentclass[12pt]{article}
+\usepackage{lipsum}  % this is a package that outputs text
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage[margin=2cm]{geometry}
+
+
+\begin{document}
+
+\title{This is a title}
+\author{
+    Prof. Tanedo
+}
+
+    
+
+\maketitle
+
+\begin{abstract}
+    This is just a sample document.
+\end{abstract}
+
+\section{Some equations}
+
+\begin{align}
+    F &= ma\\
+    \mathbf{F} &= m\mathbf{a}\\
+    \text{force} &= \text{mass} \times \text{acceleration}
+\end{align}
+
+This equation was discovered by someone else~\cite{newton}.
+
+
+\begin{thebibliography}{9}
+
+\bibitem{newton}
+  Isaac Newton,
+  \textit{Principa},
+  Cambridge, 1600s or something
+
+\end{thebibliography}
+
+
+\end{document}
